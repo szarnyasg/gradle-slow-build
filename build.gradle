@@ -5,9 +5,9 @@ targetCompatibility = 1.8
 
 repositories {
 	jcenter()
+	maven { url "https://repo.eclipse.org/content/groups/acceleo" }
 	maven { url "http://docs.inf.mit.bme.hu/trainbenchmark-deps" }
 	maven { url "https://raw.github.com/neo4j-contrib/m2/master/releases" }
-	maven { url "https://repo.eclipse.org/content/groups/acceleo" }
 }
 
 dependencies {
