@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	jcenter()
+	maven { url "http://docs.inf.mit.bme.hu/trainbenchmark-deps" }
+	maven { url "https://raw.github.com/neo4j-contrib/m2/master/releases" }
+	maven { url "https://repo.eclipse.org/content/groups/acceleo" }
+}
+
+dependencies {
+	compile group: 'org.neo4j.shell', name: 'import-tools', version: '3.0.3'
+}
